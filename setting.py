@@ -1,16 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
--------------------------------------------------
-   File Name：     setting.py
-   Description :   配置文件
-   Author :        JHao
-   date：          2019/2/15
--------------------------------------------------
-   Change Activity:
-                   2019/2/15:
--------------------------------------------------
-"""
-
 BANNER = r"""
 ****************************************************************
 *** ______  ********************* ______ *********** _  ********
@@ -37,7 +25,7 @@ PORT = 5010
 # example:
 #      Redis: redis://:password@ip:port/db
 #      Ssdb:  ssdb://:password@ip:port
-DB_CONN = 'redis://:p!0V$MPfxKTN@127.0.0.1:6379/0'
+DB_CONN = 'redis://:pwd@127.0.0.1:6379/0'
 
 # proxy table name
 TABLE_NAME = 'use_proxy'
